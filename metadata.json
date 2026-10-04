@@ -1,0 +1,6 @@
+{
+  "name": "StudyMat",
+  "description": "StudyMat - Your AI-powered study companion. A comprehensive full-stack AI study platform to master subjects, generate structured notes, practice adaptive quizzes, study flashcards, and track learning progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

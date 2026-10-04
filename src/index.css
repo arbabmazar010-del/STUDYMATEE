@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-sans {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #0c0f17;
+  color: #f1f5f9;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for study panels and code blocks */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6);
+}
+
+/* Studymate AI Core Keyframes & Interactions */
+@keyframes studymate-orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes studymate-orbit-reverse {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes studymate-breathe {
+  0%, 100% {
+    transform: scale(0.97);
+    opacity: 0.88;
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+}
+
+@keyframes studymate-pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.25), 0 0 24px rgba(99, 102, 241, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.45), 0 0 36px rgba(59, 130, 246, 0.25);
+  }
+}
+
+@keyframes studymate-shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes studymate-cursor {
+  0%, 100% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scaleY(0.9);
+  }
+}
+
+@keyframes studymate-typing-glow {
+  0%, 100% {
+    border-color: rgba(59, 130, 246, 0.35);
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.08);
+  }
+  50% {
+    border-color: rgba(56, 189, 248, 0.6);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.16);
+  }
+}
+
+.animate-studymate-orbit {
+  animation: studymate-orbit 6s linear infinite;
+}
+
+.animate-studymate-orbit-reverse {
+  animation: studymate-orbit-reverse 9s linear infinite;
+}
+
+.animate-studymate-breathe {
+  animation: studymate-breathe 2.8s ease-in-out infinite;
+}
+
+.animate-studymate-glow {
+  animation: studymate-pulse-glow 2.8s ease-in-out infinite;
+}
+
+.animate-studymate-shimmer {
+  animation: studymate-shimmer 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.animate-studymate-cursor {
+  animation: studymate-cursor 0.9s ease-in-out infinite;
+}
+
+.animate-studymate-typing-glow {
+  animation: studymate-typing-glow 2.2s ease-in-out infinite;
+}
+
+/* Accessibility: Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-studymate-orbit,
+  .animate-studymate-orbit-reverse,
+  .animate-studymate-breathe,
+  .animate-studymate-glow,
+  .animate-studymate-shimmer,
+  .animate-studymate-cursor,
+  .animate-studymate-typing-glow {
+    animation: none !important;
+    transform: none !important;
+  }
+}

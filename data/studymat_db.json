@@ -1,0 +1,709 @@
+{
+  "users": [
+    {
+      "id": "user_alex_demo",
+      "email": "alex@studymat.io",
+      "passwordHash": "demo1234",
+      "name": "Mazhar",
+      "createdAt": "2026-09-12T10:53:22.840Z",
+      "updatedAt": "2026-09-19T10:53:22.840Z"
+    },
+    {
+      "id": "user_1791106085417_xifpy",
+      "email": "mk9206845@gmail.com",
+      "passwordHash": "firebase_oauth",
+      "name": "Mazhar Khan",
+      "createdAt": "2026-10-04T09:28:05.417Z",
+      "updatedAt": "2026-10-04T09:28:05.417Z"
+    },
+    {
+      "id": "user_1791106166648_ub83m",
+      "email": "arbabmazar010@gmail.com",
+      "passwordHash": "firebase_oauth",
+      "name": "Mazhar Khan",
+      "createdAt": "2026-10-04T09:29:26.648Z",
+      "updatedAt": "2026-10-04T09:29:26.648Z"
+    }
+  ],
+  "profiles": [
+    {
+      "userId": "user_alex_demo",
+      "educationLevel": "Undergraduate (Sophomore)",
+      "subjects": [
+        "Molecular Biology",
+        "Organic Chemistry",
+        "Calculus II"
+      ],
+      "goals": [
+        "Score 3.8+ GPA"
+      ],
+      "studyStyle": "Active Recall",
+      "dailyTargetMinutes": 60,
+      "upcomingExamDate": "2026-10-07",
+      "theme": "dark",
+      "notificationsEnabled": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "userId": "user_1791106085417_xifpy",
+      "educationLevel": "College / University",
+      "subjects": [
+        "General Academic"
+      ],
+      "goals": [
+        "Improve grades and study efficiency"
+      ],
+      "studyStyle": "Active Recall",
+      "dailyTargetMinutes": 45,
+      "theme": "dark",
+      "notificationsEnabled": true
+    },
+    {
+      "userId": "user_1791106166648_ub83m",
+      "educationLevel": "College / University",
+      "subjects": [
+        "General Academic"
+      ],
+      "goals": [
+        "Improve grades and study efficiency"
+      ],
+      "studyStyle": "Active Recall",
+      "dailyTargetMinutes": 45,
+      "theme": "dark",
+      "notificationsEnabled": true
+    }
+  ],
+  "subscriptions": [
+    {
+      "userId": "user_alex_demo",
+      "plan": "pro",
+      "billingCycle": "monthly",
+      "status": "active",
+      "currentPeriodEnd": "2026-10-19T10:53:22.841Z"
+    },
+    {
+      "userId": "user_1791106085417_xifpy",
+      "plan": "free",
+      "billingCycle": "monthly",
+      "status": "active",
+      "currentPeriodEnd": "2026-11-03T09:28:05.417Z"
+    },
+    {
+      "userId": "user_1791106166648_ub83m",
+      "plan": "free",
+      "billingCycle": "monthly",
+      "status": "active",
+      "currentPeriodEnd": "2026-11-03T09:29:26.648Z"
+    }
+  ],
+  "usages": [
+    {
+      "userId": "user_alex_demo",
+      "aiGenerationsToday": 0,
+      "aiGenerationsLimit": 100,
+      "documentsUploaded": 0,
+      "documentsLimit": 25,
+      "totalStudyMinutes": 0,
+      "currentStreakDays": 1,
+      "lastStudyDate": "2026-10-04",
+      "xp": 400
+    },
+    {
+      "userId": "user_1791106085417_xifpy",
+      "aiGenerationsToday": 0,
+      "aiGenerationsLimit": 10,
+      "documentsUploaded": 0,
+      "documentsLimit": 3,
+      "totalStudyMinutes": 0,
+      "currentStreakDays": 1,
+      "lastStudyDate": "2026-10-04",
+      "xp": 150
+    },
+    {
+      "userId": "user_1791106166648_ub83m",
+      "aiGenerationsToday": 0,
+      "aiGenerationsLimit": 10,
+      "documentsUploaded": 0,
+      "documentsLimit": 3,
+      "totalStudyMinutes": 0,
+      "currentStreakDays": 1,
+      "lastStudyDate": "2026-10-04",
+      "xp": 150
+    }
+  ],
+  "notes": [
+    {
+      "id": "note_bio_1",
+      "userId": "user_alex_demo",
+      "title": "Cellular Respiration & ATP Synthesis Master Guide",
+      "subject": "Molecular Biology",
+      "topic": "Cellular Metabolism",
+      "overview": "Cellular respiration is the biochemical pathway by which organisms harvest energy from nutrients to synthesize ATP. It consists of glycolysis, the Krebs cycle, and oxidative phosphorylation.",
+      "keyConcepts": [
+        "Glycolysis occurs in the cytosol and produces 2 net ATP, 2 NADH, and 2 pyruvate molecules per glucose.",
+        "Pyruvate dehydrogenase links glycolysis to the mitochondrial matrix.",
+        "Oxidative phosphorylation accounts for ~28-30 of the 32 total ATP generated via the electrochemical proton gradient."
+      ],
+      "definitions": [
+        {
+          "term": "ATP Synthase",
+          "definition": "A rotary enzyme complex powered by the proton motive force to synthesize ATP from ADP and inorganic phosphate."
+        },
+        {
+          "term": "Chemiosmosis",
+          "definition": "The movement of hydrogen ions across a semipermeable membrane down their electrochemical gradient."
+        },
+        {
+          "term": "NADH / FADH2",
+          "definition": "High-energy electron carriers delivering reducing potential to Complex I and Complex II."
+        }
+      ],
+      "importantFacts": [
+        "Oxygen serves as the terminal electron acceptor in aerobic respiration, forming metabolic water.",
+        "Uncoupling proteins (UCP-1) in brown adipose tissue generate heat instead of ATP."
+      ],
+      "examples": [
+        "Lactic Acid Fermentation: Anaerobic glycolysis in fatigued mammalian skeletal muscle."
+      ],
+      "formulas": [
+        "C6H12O6 + 6 O2 → 6 CO2 + 6 H2O + 30-32 ATP"
+      ],
+      "keyTakeaways": [
+        "Complex I, III, and IV pump protons into the intermembrane space.",
+        "Cyanide directly inhibits Cytochrome c Oxidase (Complex IV), halting ATP synthesis."
+      ],
+      "reviewQuestions": [
+        "How many protons are pumped per pair of electrons transferred from NADH?",
+        "Why does FADH2 yield fewer ATP equivalents than NADH?"
+      ],
+      "isFavorite": true,
+      "createdAt": "2026-09-17T10:53:22.841Z",
+      "updatedAt": "2026-09-17T10:53:22.841Z"
+    }
+  ],
+  "summaries": [],
+  "documents": [],
+  "flashcardDecks": [
+    {
+      "id": "deck_chem_1",
+      "userId": "user_alex_demo",
+      "title": "Organic Chemistry Reaction Mechanisms",
+      "subject": "Organic Chemistry",
+      "topic": "Nucleophilic Substitution & Elimination",
+      "description": "High-yield active recall flashcards for SN1, SN2, E1, and E2 pathways.",
+      "cardsCount": 4,
+      "masteredCount": 2,
+      "isFavorite": true,
+      "createdAt": "2026-09-15T10:53:22.842Z",
+      "updatedAt": "2026-09-18T10:53:22.842Z"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card_1",
+      "deckId": "deck_chem_1",
+      "front": "What solvent type strongly favors SN2 reactions over SN1?",
+      "back": "Polar Aprotic Solvents (e.g., Acetone, DMSO, DMF). They solvate cations but leave nucleophilic anions unencumbered and highly reactive.",
+      "difficulty": "medium",
+      "reviewedCount": 3,
+      "correctCount": 3,
+      "status": "mastered"
+    },
+    {
+      "id": "card_2",
+      "deckId": "deck_chem_1",
+      "front": "Describe the stereochemical outcome of an SN2 substitution at a chiral carbon center.",
+      "back": "Complete inversion of configuration (Walden Inversion) due to backside attack by the nucleophile opposite the leaving group.",
+      "difficulty": "easy",
+      "reviewedCount": 2,
+      "correctCount": 2,
+      "status": "mastered"
+    },
+    {
+      "id": "card_3",
+      "deckId": "deck_chem_1",
+      "front": "State Zaitsev's Rule regarding elimination (E1/E2) products.",
+      "back": "The major elimination product is the more substituted, thermodynamically more stable alkene.",
+      "difficulty": "medium",
+      "reviewedCount": 1,
+      "correctCount": 0,
+      "status": "learning"
+    },
+    {
+      "id": "card_4",
+      "deckId": "deck_chem_1",
+      "front": "Why do tertiary alkyl halides fail to undergo SN2 reactions?",
+      "back": "Severe steric hindrance prevents backside attack of the nucleophile on the bulky tertiary carbon center.",
+      "difficulty": "easy",
+      "reviewedCount": 1,
+      "correctCount": 0,
+      "status": "learning"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz_bio_1",
+      "userId": "user_alex_demo",
+      "title": "Cellular Respiration & Bioenergetics Quiz",
+      "subject": "Molecular Biology",
+      "topic": "Cellular Respiration",
+      "difficulty": "medium",
+      "isFavorite": true,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which enzyme complex in the electron transport chain does NOT pump protons across the mitochondrial inner membrane?",
+          "type": "multiple_choice",
+          "options": [
+            "Complex I (NADH dehydrogenase)",
+            "Complex II (Succinate dehydrogenase)",
+            "Complex III (Cytochrome bc1)",
+            "Complex IV (Cytochrome c oxidase)"
+          ],
+          "correctAnswer": "Complex II (Succinate dehydrogenase)",
+          "explanation": "Complex II transfers electrons from succinate to ubiquinone via FAD without spanning the membrane, therefore pumping zero protons.",
+          "topic": "Electron Transport Chain"
+        },
+        {
+          "id": "q2",
+          "question": "What is the direct source of energy driving ATP synthase during oxidative phosphorylation?",
+          "type": "multiple_choice",
+          "options": [
+            "Hydrolysis of GTP in the matrix",
+            "The proton electrochemical gradient across the inner membrane",
+            "Direct cleavage of glucose molecules",
+            "Absorption of radiant photons"
+          ],
+          "correctAnswer": "The proton electrochemical gradient across the inner membrane",
+          "explanation": "Protons flowing back into the matrix through the F0 subunit drive rotation of the gamma stalk, causing conformational changes in F1 catalytic sites.",
+          "topic": "Chemiosmosis"
+        },
+        {
+          "id": "q3",
+          "question": "True or False: Glycolysis requires molecular oxygen to produce pyruvate.",
+          "type": "true_false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Glycolysis is an anaerobic pathway occurring in the cytoplasm and does not require oxygen.",
+          "topic": "Glycolysis"
+        }
+      ],
+      "createdAt": "2026-09-16T10:53:22.842Z"
+    }
+  ],
+  "quizAttempts": [
+    {
+      "id": "att_bio_1",
+      "quizId": "quiz_bio_1",
+      "userId": "user_alex_demo",
+      "quizTitle": "Cellular Respiration & Bioenergetics Quiz",
+      "subject": "Molecular Biology",
+      "score": 3,
+      "totalQuestions": 3,
+      "percentage": 100,
+      "answers": [
+        {
+          "questionId": "q1",
+          "userAnswer": "Complex II (Succinate dehydrogenase)",
+          "isCorrect": true,
+          "explanation": "Correct"
+        },
+        {
+          "questionId": "q2",
+          "userAnswer": "The proton electrochemical gradient across the inner membrane",
+          "isCorrect": true,
+          "explanation": "Correct"
+        },
+        {
+          "questionId": "q3",
+          "userAnswer": "False",
+          "isCorrect": true,
+          "explanation": "Correct"
+        }
+      ],
+      "topicPerformance": [
+        {
+          "topic": "Electron Transport Chain",
+          "correct": 1,
+          "total": 1
+        },
+        {
+          "topic": "Chemiosmosis",
+          "correct": 1,
+          "total": 1
+        }
+      ],
+      "completedAt": "2026-09-18T10:53:22.842Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_1789816741213_uu6w8",
+      "userId": "user_alex_demo",
+      "title": "Explain the difference between mitos...",
+      "subject": "Biology",
+      "mode": "explain",
+      "createdAt": "2026-09-19T11:19:01.213Z",
+      "updatedAt": "2026-09-19T11:19:07.305Z"
+    },
+    {
+      "id": "conv_1789817294598_fgps7",
+      "userId": "user_alex_demo",
+      "title": "Give me one key equation in rotation...",
+      "subject": "Physics",
+      "mode": "explain",
+      "createdAt": "2026-09-19T11:28:14.598Z",
+      "updatedAt": "2026-09-19T11:28:23.367Z"
+    },
+    {
+      "id": "conv_1789817715697_wmakl",
+      "userId": "user_alex_demo",
+      "title": "Can you explain the difference betwe...",
+      "subject": "Biology",
+      "mode": "summarize",
+      "createdAt": "2026-09-19T11:35:15.697Z",
+      "updatedAt": "2026-09-19T11:35:21.239Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1789816741214_u",
+      "conversationId": "conv_1789816741213_uu6w8",
+      "userId": "user_alex_demo",
+      "role": "user",
+      "content": "Explain the difference between mitosis and meiosis in 2 concise bullet points.",
+      "studyMode": "explain",
+      "createdAt": "2026-09-19T11:19:01.214Z"
+    },
+    {
+      "id": "msg_1789816747305_a",
+      "conversationId": "conv_1789816741213_uu6w8",
+      "userId": "user_alex_demo",
+      "role": "assistant",
+      "content": "Here is the key difference broken down into two main concepts:\n\n* **Purpose and Products (\"The Photocopy\"):** **Mitosis** produces **two genetically identical, diploid ($2n$)** daughter cells used for general growth, development, and tissue repair throughout the body (somatic cells).\n* **Divisions and Diversity (\"The Genetic Shuffle\"):** **Meiosis** undergoes two rounds of division to produce **four genetically unique, haploid ($n$)** sex cells (gametes: sperm or egg), halving the chromosome number to ensure genetic variation for sexual reproduction.",
+      "studyMode": "explain",
+      "createdAt": "2026-09-19T11:19:07.305Z"
+    },
+    {
+      "id": "msg_1789817294598_u",
+      "conversationId": "conv_1789817294598_fgps7",
+      "userId": "user_alex_demo",
+      "role": "user",
+      "content": "Give me one key equation in rotational kinematics and what each variable represents.",
+      "studyMode": "explain",
+      "createdAt": "2026-09-19T11:28:14.598Z"
+    },
+    {
+      "id": "msg_1789817303367_a",
+      "conversationId": "conv_1789817294598_fgps7",
+      "userId": "user_alex_demo",
+      "role": "assistant",
+      "content": "Hello, Alex! It’s great to see you diving into rotational kinematics. Since you’re balancing Physics with Calculus II and Molecular Biology, you’ll likely notice that rotational motion is essentially the \"circular\" cousin of the linear motion you’ve studied in mechanics.\n\nTo kick things off, let’s look at the **Rotational Kinematic Equation for Angular Velocity**, which is the angular equivalent of $v = v_0 + at$.\n\n### The Key Equation\n$$\\omega_f = \\omega_i + \\alpha t$$\n\n---\n\n### Variable Breakdown\n\nThink of this equation as tracking how \"fast\" an object is spinning over time. Here is what each piece represents:\n\n*   **$\\omega_f$ (Final Angular Velocity):** Measured in **radians per second (rad/s)**. This is how fast the object is rotating at the end of your time interval.\n*   **$\\omega_i$ (Initial Angular Velocity):** Also in **rad/s**. This is the starting rotational speed.\n*   **$\\alpha$ (Angular Acceleration):** Measured in **rad/s²**. This is the \"rotational version\" of force-induced acceleration. It tells you how quickly the object is speeding up or slowing down its rotation.\n*   **$t$ (Time):** Measured in **seconds (s)**. The duration over which the acceleration is applied.\n\n---\n\n### The \"Mental Model\": The Molecular Centrifuge\nSince you’re a Molecular Biology student, imagine you are using a **centrifuge** to separate cell components.\n\n1.  **$\\omega_i$:** You press the \"Start\" button. Initially, the rotor is at rest ($\\omega_i = 0$).\n2.  **$\\alpha$:** The motor kicks in, providing a constant torque that results in an angular acceleration ($\\alpha$).\n3.  **$t$:** You let it spin up for 10 seconds.\n4.  **$\\omega_f$:** After those 10 seconds, the centrifuge reaches its final, high-speed spin rate.\n\n**Why this matters for your GPA:**\nIn Calculus II, you’ll eventually see that these rotational variables are related to linear ones by the radius ($r$). For example, linear velocity $v = \\omega r$. Understanding this relationship now will make your upcoming work with integration and polar coordinates much more intuitive.\n\n---\n\n### Active Recall Challenge\nTo make sure this sticks, let’s test your intuition:\n\n**If a centrifuge has a constant angular acceleration of $5 \\, \\text{rad/s}^2$ and starts from rest, how fast will it be spinning after $4$ seconds?**\n\n*Give it a try—show me your calculation!*",
+      "studyMode": "explain",
+      "createdAt": "2026-09-19T11:28:23.367Z"
+    },
+    {
+      "id": "msg_1789817715698_u",
+      "conversationId": "conv_1789817715697_wmakl",
+      "userId": "user_alex_demo",
+      "role": "user",
+      "content": "Can you explain the difference between mitosis and meiosis in 2 bullet points?",
+      "studyMode": "summarize",
+      "createdAt": "2026-09-19T11:35:15.698Z"
+    },
+    {
+      "id": "msg_1789817721239_a",
+      "conversationId": "conv_1789817715697_wmakl",
+      "userId": "user_alex_demo",
+      "role": "assistant",
+      "content": "Here is the high-yield comparison tailored for molecular biology:\n\n* **Mitosis (Somatic / Equational Division):** Consists of **one round of division** that preserves ploidy ($2n \\rightarrow 2n$), producing **two genetically identical diploid daughter cells** without homologous pairing or crossing over; its primary role is tissue growth, maintenance, and repair.\n* **Meiosis (Germline / Reductional + Equational Division):** Consists of **two successive rounds of division** (Meiosis I and II) preceded by a single round of DNA replication, producing **four genetically unique haploid gametes ($2n \\rightarrow n$)** through homologous recombination (crossing over in Prophase I) and independent assortment.\n\n***\n\n**Quick Active Recall Check for You, Alex:** \n*During which specific phase does the transition from a diploid state to a haploid state actually occur—Meiosis I or Meiosis II?*",
+      "studyMode": "summarize",
+      "createdAt": "2026-09-19T11:35:21.239Z"
+    }
+  ],
+  "studyPlans": [
+    {
+      "id": "plan_alex_1",
+      "userId": "user_alex_demo",
+      "title": "Midterm Prep Sprint",
+      "weeklyGoalHours": 12,
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-26",
+      "createdAt": "2026-09-19T10:53:22.843Z"
+    }
+  ],
+  "studyTasks": [
+    {
+      "id": "task_1",
+      "planId": "plan_alex_1",
+      "userId": "user_alex_demo",
+      "dayOfWeek": "Monday",
+      "dateStr": "2026-09-19",
+      "subject": "Molecular Biology",
+      "topic": "Krebs Cycle Enzymes & Regulation",
+      "targetMinutes": 45,
+      "completed": true,
+      "completedAt": "2026-09-19T10:53:22.843Z"
+    },
+    {
+      "id": "task_2",
+      "planId": "plan_alex_1",
+      "userId": "user_alex_demo",
+      "dayOfWeek": "Monday",
+      "dateStr": "2026-09-19",
+      "subject": "Organic Chemistry",
+      "topic": "SN1 vs SN2 Mechanism Drills",
+      "targetMinutes": 30,
+      "completed": true,
+      "completedAt": "2026-09-19T10:53:22.843Z"
+    },
+    {
+      "id": "task_3",
+      "planId": "plan_alex_1",
+      "userId": "user_alex_demo",
+      "dayOfWeek": "Tuesday",
+      "dateStr": "2026-09-20",
+      "subject": "Calculus II",
+      "topic": "Integration by Parts & Trigonometric Substitution",
+      "targetMinutes": 50,
+      "completed": false
+    },
+    {
+      "id": "task_4",
+      "planId": "plan_alex_1",
+      "userId": "user_alex_demo",
+      "dayOfWeek": "Wednesday",
+      "dateStr": "2026-09-21",
+      "subject": "Molecular Biology",
+      "topic": "Electron Transport Chain Inhibitors",
+      "targetMinutes": 40,
+      "completed": false
+    },
+    {
+      "id": "task_5",
+      "planId": "plan_alex_1",
+      "userId": "user_alex_demo",
+      "dayOfWeek": "Thursday",
+      "dateStr": "2026-09-22",
+      "subject": "Organic Chemistry",
+      "topic": "E1 and E2 Stereochemistry",
+      "targetMinutes": 45,
+      "completed": false
+    }
+  ],
+  "achievements": {
+    "user_alex_demo": [
+      {
+        "id": "first_quiz",
+        "title": "Quiz Starter",
+        "description": "Complete your first practice quiz",
+        "icon": "Award",
+        "category": "quizzes",
+        "progress": 1,
+        "maxProgress": 1,
+        "unlockedAt": "2026-09-19T10:53:22.842Z"
+      },
+      {
+        "id": "quiz_master",
+        "title": "Knowledge Hunter",
+        "description": "Complete 5 practice quizzes with >80% score",
+        "icon": "CheckCircle",
+        "category": "quizzes",
+        "progress": 1,
+        "maxProgress": 5
+      },
+      {
+        "id": "streak_3",
+        "title": "Consistency Scout",
+        "description": "Maintain a 3-day study streak",
+        "icon": "Flame",
+        "category": "streak",
+        "progress": 1,
+        "maxProgress": 3
+      },
+      {
+        "id": "streak_7",
+        "title": "Study Champion",
+        "description": "Reach a 7-day study streak",
+        "icon": "Zap",
+        "category": "streak",
+        "progress": 1,
+        "maxProgress": 7
+      },
+      {
+        "id": "notes_creator",
+        "title": "Master Scribe",
+        "description": "Generate and save 5 structured AI notes",
+        "icon": "BookOpen",
+        "category": "notes",
+        "progress": 0,
+        "maxProgress": 5
+      },
+      {
+        "id": "time_10h",
+        "title": "Deep Work",
+        "description": "Accumulate 10 hours of active study time",
+        "icon": "Clock",
+        "category": "study_time",
+        "progress": 0,
+        "maxProgress": 600
+      }
+    ],
+    "user_1791106085417_xifpy": [
+      {
+        "id": "first_quiz",
+        "title": "Quiz Starter",
+        "description": "Complete your first practice quiz",
+        "icon": "Award",
+        "category": "quizzes",
+        "progress": 0,
+        "maxProgress": 1
+      },
+      {
+        "id": "quiz_master",
+        "title": "Knowledge Hunter",
+        "description": "Complete 5 practice quizzes with >80% score",
+        "icon": "CheckCircle",
+        "category": "quizzes",
+        "progress": 0,
+        "maxProgress": 5
+      },
+      {
+        "id": "streak_3",
+        "title": "Consistency Scout",
+        "description": "Maintain a 3-day study streak",
+        "icon": "Flame",
+        "category": "streak",
+        "progress": 1,
+        "maxProgress": 3
+      },
+      {
+        "id": "streak_7",
+        "title": "Study Champion",
+        "description": "Reach a 7-day study streak",
+        "icon": "Zap",
+        "category": "streak",
+        "progress": 1,
+        "maxProgress": 7
+      },
+      {
+        "id": "notes_creator",
+        "title": "Master Scribe",
+        "description": "Generate and save 5 structured AI notes",
+        "icon": "BookOpen",
+        "category": "notes",
+        "progress": 0,
+        "maxProgress": 5
+      },
+      {
+        "id": "time_10h",
+        "title": "Deep Work",
+        "description": "Accumulate 10 hours of active study time",
+        "icon": "Clock",
+        "category": "study_time",
+        "progress": 0,
+        "maxProgress": 600
+      }
+    ],
+    "user_1791106166648_ub83m": [
+      {
+        "id": "first_quiz",
+        "title": "Quiz Starter",
+        "description": "Complete your first practice quiz",
+        "icon": "Award",
+        "category": "quizzes",
+        "progress": 0,
+        "maxProgress": 1
+      },
+      {
+        "id": "quiz_master",
+        "title": "Knowledge Hunter",
+        "description": "Complete 5 practice quizzes with >80% score",
+        "icon": "CheckCircle",
+        "category": "quizzes",
+        "progress": 0,
+        "maxProgress": 5
+      },
+      {
+        "id": "streak_3",
+        "title": "Consistency Scout",
+        "description": "Maintain a 3-day study streak",
+        "icon": "Flame",
+        "category": "streak",
+        "progress": 1,
+        "maxProgress": 3
+      },
+      {
+        "id": "streak_7",
+        "title": "Study Champion",
+        "description": "Reach a 7-day study streak",
+        "icon": "Zap",
+        "category": "streak",
+        "progress": 1,
+        "maxProgress": 7
+      },
+      {
+        "id": "notes_creator",
+        "title": "Master Scribe",
+        "description": "Generate and save 5 structured AI notes",
+        "icon": "BookOpen",
+        "category": "notes",
+        "progress": 0,
+        "maxProgress": 5
+      },
+      {
+        "id": "time_10h",
+        "title": "Deep Work",
+        "description": "Accumulate 10 hours of active study time",
+        "icon": "Clock",
+        "category": "study_time",
+        "progress": 0,
+        "maxProgress": 600
+      }
+    ]
+  },
+  "notifications": [
+    {
+      "id": "notif_iu6ua7t",
+      "userId": "user_1791106166648_ub83m",
+      "title": "Welcome to StudyMat! 🎓",
+      "message": "Set up your subjects and start an AI study session or generate your first quiz.",
+      "type": "system",
+      "isRead": false,
+      "link": "/onboarding",
+      "createdAt": "2026-10-04T09:29:26.648Z"
+    },
+    {
+      "id": "notif_l93jyp1",
+      "userId": "user_1791106085417_xifpy",
+      "title": "Welcome to StudyMat! 🎓",
+      "message": "Set up your subjects and start an AI study session or generate your first quiz.",
+      "type": "system",
+      "isRead": false,
+      "link": "/onboarding",
+      "createdAt": "2026-10-04T09:28:05.418Z"
+    },
+    {
+      "id": "notif_asw5zu5",
+      "userId": "user_alex_demo",
+      "title": "Achievement Unlocked: Quiz Starter! 🏆",
+      "message": "You completed your first quiz on StudyMat. Keep testing your knowledge!",
+      "type": "achievement",
+      "isRead": false,
+      "createdAt": "2026-09-19T10:53:22.842Z"
+    },
+    {
+      "id": "notif_bgceikq",
+      "userId": "user_alex_demo",
+      "title": "Welcome to StudyMat! 🎓",
+      "message": "Set up your subjects and start an AI study session or generate your first quiz.",
+      "type": "system",
+      "isRead": false,
+      "link": "/onboarding",
+      "createdAt": "2026-09-19T10:53:22.841Z"
+    }
+  ]
+}
